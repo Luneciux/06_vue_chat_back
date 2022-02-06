@@ -10,7 +10,7 @@ const server = http.createServer(app);
 const { Server, Socket } = require('socket.io');
 const io = new Server(server,  {
   cors: {
-    origin: "https://luneciux-chat.herokuapp.com:8000" 
+    origin: "https://luneciux-chat.herokuapp.com" 
   }
 });
 
